@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+VN:wght@100..400&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+ 
+
+ .firstsection{
+
+    font-family: "Caveat", cursive;
+
+      height: auto;
+     width:100%;
+     background-image: url("/public/22d9c876dd468a20d2afa9d00e8f281a.jpg");
+     background-size: 100% 100%;
+     padding: 50px
+
+}
+.f .imgdiv img:hover{
+    transform: scale(1.2); /* 1.2 بدلاً من 2 حتى لا يكون التأثير مفاجئًا */
+
+     transition: all 500ms !important;
+ }
+ img{
+  border-radius: 50% !important;
+ 
+ }
+ a{
+     font-size: 2rem !important;
+     text-decoration: none !important;
+  }
+  
