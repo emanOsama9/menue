@@ -11,7 +11,7 @@ export function Navbar(props){
     return<>
      <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <img src='/images (4).jfif' className="nav-img"/>
+    <img src='/menue/images (4).jfif' className="nav-img "/>
      
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
