@@ -14,11 +14,13 @@ let[error,seterror]=useState("")
 
 async function submit (e){
     try{
+        
         e.preventDefault()
         let y=  await createUserWithEmailAndPassword(auth,
            email,
             password
          );
+         
     }
     catch(error){
         seterror(error.message)

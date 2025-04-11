@@ -37,8 +37,7 @@ import { useNavigate } from "react-router-dom";
        console.log("fghj")
      }
       
-          
-         
+      
          useEffect(function(){
      
          onAuthStateChanged(auth,(currentuser)=>{

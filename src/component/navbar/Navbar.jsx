@@ -6,11 +6,7 @@ import "./nav.css"
 
 export function Navbar(props){
     let navigate=useNavigate()
-async function v(){
-    await signOut(auth)
-      navigate("/sign")
-      console.log("k")
- }
+
     
     return<>
      <nav class="navbar navbar-expand-lg navbar-dark">

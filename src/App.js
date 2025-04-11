@@ -45,12 +45,13 @@ function user_render(){
   if(localStorage.getItem("tkn")!=null){
 
              getuser()
+             
   }
 
 }
 useEffect(function(){
 
-user_render()
+       user_render()
 
 
 
